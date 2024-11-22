@@ -13,9 +13,9 @@ flowchart LR
     AB([A->B]):::c2
     AC([A->C]):::c2
 
-    classDef c1 width:60px,fill:#f16,font-size:15px  
-    classDef c2 fill:#f96    
-    classDef empty width:0px,height:0px
+    %% classDef c1 width:60px,fill:#f16,font-size:15px  
+    %% classDef c2 fill:#f96    
+    %% classDef empty width:0px,height:0px
     
     A --- O
     O --> AB 
@@ -60,9 +60,9 @@ flowchart TB
     CA(["C->A"]):::c2 
     CB(["C->B"]):::c2
     
-    classDef c1 width:60px,fill:#f16,font-size:15px,font-weight:bold
-    classDef c2 fill:#f96
-    classDef empty width:0px,height:0px
+    %% classDef c1 width:60px,fill:#f16,font-size:15px,font-weight:bold
+    %% classDef c2 fill:#f96
+    %% classDef empty width:0px,height:0px
 
     P --- O
     O --> A
