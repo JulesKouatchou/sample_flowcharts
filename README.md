@@ -1,5 +1,7 @@
 # Sample Flowcharts with  `mermaid`
 
+#### Example
+
 ```mermaid
 %%{ init: {'flowchart': { 'curve': 'stepAfter' } } }%%
 
@@ -22,6 +24,8 @@ flowchart LR
     AC --> C
 ```
 
+#### Example
+
 ```mermaid
 flowchart LR
     A("A::run"):::c1
@@ -37,6 +41,7 @@ flowchart LR
     B ~~~ BA
 ```
 
+#### Example
 
 ```mermaid
 %%{ init: {'flowchart': { 'curve': 'stepAfter' } } }%%
