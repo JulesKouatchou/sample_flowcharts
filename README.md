@@ -75,3 +75,27 @@ flowchart TB
     C --> CA
     C --> CB
 ```
+
+#### Example
+
+```mermaid
+%%{ init: {'flowchart': { 'curve': 'stepAfter' } } }%%
+
+flowchart TB
+    %% This is a test
+
+    CA1[Cap GC]:::c1 --- CO1[ ]:::empty
+    CO1 --- EX1[ExtData]:::c1 & RE[Replay]:::c2 & HI1[History]:::c1
+    RE --- CO2[ ]:::empty
+    CO2 --- CA2[Cap GC2]:::c1 & DF[Digital Filter]:::c2 & GC1[GCM]:::c3
+    CA2 --- CO3[ ]:::empty
+    CO3 --- EX2[ExtData2]:::c1 & PR[Predictor]:::c2 & HI2[History2]:::c1
+    PR --- CO4[ ]:::empty
+    CO4 --- GC2[GCM2]:::c3 & MK[MKIAU]:::c3
+    MK --- AN[(Analyses)]
+
+    classDef c1 fill:#faaa11
+    classDef c2 fill:#fee196
+    classDef c3 fill:#ffe107
+    classDef empty width:0px,height:0px
+```
