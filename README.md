@@ -15,7 +15,7 @@ flowchart LR
 
     %% classDef c1 width:60px,fill:#f16,font-size:15px  
     %% classDef c2 fill:#f96    
-    classDef empty width:0px,height:0px
+    classDef empty width:0px,height:0px,fill:#bbf
     
     A --- O
     O --> AB 
