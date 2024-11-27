@@ -99,3 +99,12 @@ flowchart TB
     classDef c3 fill:#ffe107
     classDef empty width:0px,height:0px
 ```
+
+#### Example
+
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+
+@enduml
