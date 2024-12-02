@@ -1,6 +1,6 @@
 @startwbs                  
-*(c1)[#Orange] "Cap GC"             
-**(e1)[#Orange] "ExtData"        
+*(c1)[#Orange] Cap GC             
+**(e1)[#Orange] ExtData        
 **(r1)[#lightgreen] Replay     
 ***[#Orange] Cap GC2    
 ****[#Orange] ExtData2
