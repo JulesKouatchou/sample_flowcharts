@@ -1,14 +1,14 @@
-@startmindmap
-* Cap GC
-    * ExtData
-    * Replay
-        * Cap GC2 
-            * ExtDta2
-            * Predictor
-                * GCM2
-                * MKIAU
-            * History2
-        * Digital Filter
-        * GCM 
-    * History
-@endmindmap
+@startuml  
+:Cap GC;   
+    :ExtData;    
+    :Replay;     
+        :Cap GC2;
+            :ExtDta2;  
+            :Predictor;
+                :GCM2; 
+                :MKIAU;
+            :History2; 
+        :Digital Filter;
+        :GCM;    
+    :History;    
+@enduml
