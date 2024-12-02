@@ -109,3 +109,7 @@ Bob -> Alice: Hi!
 @enduml
 -->
 ![sample](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/JulesKouatchou/sample_flowcharts/refs/heads/main/sample.iuml)
+
+#### Example
+
+![sample](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/JulesKouatchou/sample_flowcharts/refs/heads/main/sample_1.iuml)
