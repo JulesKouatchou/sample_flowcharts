@@ -1,4 +1,4 @@
-@startmindmap                  
+@startwbs                  
 *[#Orange] Cap GC             
 **[#Orange] ExtData        
 **[#lightgreen] Replay     
@@ -11,4 +11,4 @@
 ***[#lightgreen] Digital Filter
 ***[#lightblue] GCM     
 **[#Orange] History        
-@endmindmap
+@endwbs
