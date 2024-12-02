@@ -1,4 +1,4 @@
-# Sample Flowcharts with  `mermaid`
+# Sample Flowcharts with  `mermaid` and `plantUML'
 
 #### Example
 
