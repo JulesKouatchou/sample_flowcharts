@@ -1,7 +1,7 @@
 @startwbs                  
-*(c1)[#Orange] Cap GC             
-**(e1)[#Orange] ExtData        
-**(r1)[#lightgreen] Replay     
+*[#Orange] Cap GC             
+**[#Orange] ExtData        
+**[#lightgreen] Replay     
 ***[#Orange] Cap GC2    
 ****[#Orange] ExtData2
 ****[#lightgreen] Predictor
@@ -10,5 +10,5 @@
 ****[#Orange] History2
 ***[#lightgreen] Digital Filter
 ***[#lightblue] GCM     
-**(h1)[#Orange] History
+**[#Orange] History
 @endwbs
