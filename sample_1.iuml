@@ -1,12 +1,12 @@
 @startwbs
 +[#SkyBlue] Parent 
 ++[#lightgreen] A     
-+++[#Orange] "A->B"
-+++[#Orange] "A->C"
++++[#Orange] A->B
++++[#Orange] A->C
 ++[#lightgreen] B     
-+++[#Orange] "B->A"
-+++[#Orange] "B->C"
++++[#Orange] B->A
++++[#Orange] B->C
 ++[#lightgreen] C     
-+++[#Orange] "C->A"
-+++[#Orange] "C->B"                                                                         
++++[#Orange] C->A 
++++[#Orange]  C->B                                                                         
 @endwbs
