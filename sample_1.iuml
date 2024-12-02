@@ -8,5 +8,5 @@
 +++[#Orange] B->C
 ++[#lightgreen] C     
 +++[#Orange] C->A 
-+++[#Orange]  C->B                                                                         
++++[#Orange] C->B                                                                         
 @endwbs
