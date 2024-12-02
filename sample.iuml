@@ -1,7 +1,7 @@
 @startwbs                  
-*[#Orange] "Cap GC" as c1             
-**[#Orange] "ExtData" as e1        
-**[#lightgreen] Replay     
+*(c1)[#Orange] "Cap GC"             
+**(e1)[#Orange] "ExtData"        
+**(r1)[#lightgreen] Replay     
 ***[#Orange] Cap GC2    
 ****[#Orange] ExtData2
 ****[#lightgreen] Predictor
@@ -10,6 +10,8 @@
 ****[#Orange] History2
 ***[#lightgreen] Digital Filter
 ***[#lightblue] GCM     
-**[#Orange] History
+**(h1)[#Orange] History
 c1 --> e1
+c1 --> r1
+c1 --> h1
 @endwbs
